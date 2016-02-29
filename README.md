@@ -15,7 +15,7 @@ microsoft tranlatorを使った翻訳アプリで、英語から日本語、日�
 ##Demo
 スクリーンショットは[wiki](https://github.com/masapixyon/TranslateApp/wiki "Wiki")を参照してください。
 
-<img src="https://github.com/masapixyon/TranslateApp/tree/master/images/TA-Screenshot-4" width="300px">
+<img src="https://github.com/masapixyon/TranslateApp/blob/master/images/TA-Screenshot-4.png" width="300px">
 
 
 
@@ -47,7 +47,6 @@ microsoft tranlatorを使った翻訳アプリで、英語から日本語、日�
 
 　　APIをコールする際に__「クライアントID」__と__「秘密のキー」__が必要になる
 
-　
 
 4.ライブラリの用意
 
@@ -65,10 +64,9 @@ microsoft tranlatorを使った翻訳アプリで、英語から日本語、日�
 
 ・クラスを使うために、import文を追加
 
-    `
-    import com.memetix.mst.language.Language;
-    import com.memetix.mst.translate.Translate;
-    `
+    `import com.memetix.mst.language.Language;
+    import com.memetix.mst.translate.Translate;`
+
  ・先ほど、アプリケーション登録で取得したものを以下に代入、mainに追加する。
 
     `
