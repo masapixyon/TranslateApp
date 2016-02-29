@@ -15,7 +15,7 @@ microsoft tranlatorを使った翻訳アプリで、英語から日本語、日�
 ##Demo
 スクリーンショットは[wiki](https://github.com/masapixyon/TranslateApp/wiki "Wiki")を参照してください。
 
-<img src="https://github.com/masapixyon/TranslateApp/tree/master/images/TA-Screenshot-4.png" width="300px">
+<img src="https://github.com/masapixyon/TranslateApp/tree/master/images/TA-Screenshot-4" width="300px">
 
 
 
@@ -65,26 +65,26 @@ microsoft tranlatorを使った翻訳アプリで、英語から日本語、日�
 
 ・クラスを使うために、import文を追加
 
-    ``
+    `
     import com.memetix.mst.language.Language;
     import com.memetix.mst.translate.Translate;
-    ``
+    `
  ・先ほど、アプリケーション登録で取得したものを以下に代入、mainに追加する。
 
-    ``
+    `
     Translate.setClientId( "クライアントID" ); 
     Translate.setClientSecret( "秘密のキー" );
-    ``
+    `
 
 ・実際の可動部の例
 
 変数JapanesesText には翻訳したい日本語を代入
 
-    ``
+    `
     String JapaneseText = “こんにちは”;
     String translatedText = Translate.execute( JapaneseText, Language.JAPANESE,  Language.ENGLISH );
     System.out.println( "日本語から英語へ: "  + translatedText );
-    ``
+    `
 
 
 
