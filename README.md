@@ -34,14 +34,12 @@ microsoft tranlatorを使った翻訳アプリで、英語から日本語、日�
 
 
 
-
 　　1.[Microsoft Azure Marketplace](https://datamarket.azure.com/dataset/bing/microsofttranslator)からサインインする。
 
 
-  　2.マイアカウントからサービスの登録
+　　2.マイアカウントからサービスの登録
 
   　　　２０万文字までの翻訳APIまでは、無料でサービスを登録できるので、これを選択
-
 
 
 　　3.アプリケーションの登録
@@ -66,24 +64,24 @@ microsoft tranlatorを使った翻訳アプリで、英語から日本語、日�
 
 #### Coding
 
-クラスを使うために、import文を追加
+・クラスを使うために、import文を追加
 
-$　import com.memetix.mst.language.Language;
-$　import com.memetix.mst.translate.Translate;
+    `$hoge = 1`import com.memetix.mst.language.Language;
+    `$hoge = 2`import com.memetix.mst.translate.Translate;
 
-先ほど、アプリケーション登録で取得したものを以下に代入、mainに追加する。
+ ・先ほど、アプリケーション登録で取得したものを以下に代入、mainに追加する。
 
-$　Translate.setClientId( "クライアントID" );
-$　Translate.setClientSecret( "秘密のキー" );
+    `$hoge = 1`Translate.setClientId( "クライアントID" );
+    `$hoge = 2 `Translate.setClientSecret( "秘密のキー" );
 
 
 ・実際の可動部の例
 
 変数JapanesesText には翻訳したい日本語を代入
 
-$　String JapaneseText = “こんにちは”;
-$　String translatedText = Translate.execute( JapaneseText, Language.JAPANESE,  Language.ENGLISH );
-$　System.out.println( "日本語から英語へ: "  + translatedText );
+    `$hoge = 1`String JapaneseText = “こんにちは”;
+    `$hoge = 2`String translatedText = Translate.execute( JapaneseText, Language.JAPANESE,  Language.ENGLISH );
+    `$hoge = 3`System.out.println( "日本語から英語へ: "  + translatedText );
 
 
 
