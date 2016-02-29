@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TranslateApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="textInput">テキストを入力</string>
+    <string name="translate">翻訳</string>
+    <string name="intoJapanese">日本語へ</string>
+    <string name="intoEnglish">英語へ</string>
+
+</resources>
