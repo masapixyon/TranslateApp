@@ -20,14 +20,14 @@ microsoft tranlatorを使った翻訳アプリで、英語から日本語、日�
 
 
 ##Install
-・apk
+###・apk
 
-  SDカードやドライブなどでAndroid端末にTranslate.
+  Android端末にSDカードやクラウドなどを使いTranslate.apkをダウンロードする、
+  Android端末でインストールすれば、実行できる。
 
-  apkをファイルをダウンロードし、Android端末でインストールすれば、実行
 
+###・Eclipce＋Android SDKのエミュレータで起動
 
-・Eclipce＋SDKのエミュレータで起動
 
 　今回は、microsoft tranlatorの機能を使用しており、あらかじめAPIを取得しておく必要がある
 
@@ -78,7 +78,7 @@ microsoft tranlatorを使った翻訳アプリで、英語から日本語、日�
 
 変数JapanesesText には翻訳したい日本語を代入
 
-Translateのexecute ()メソッドにより、日本語を英語に変換しています。
+Translateのexecute ()メソッドにより、日本語を英語に変換している。
     
     String JapaneseText = “こんにちは”;
     String translatedText = Translate.execute( JapaneseText, Language.JAPANESE,  Language.ENGLISH );
